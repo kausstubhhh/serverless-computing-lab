@@ -6,19 +6,6 @@ The goal of this lab is to understand how Function-as-a-Service (FaaS) platforms
 
 --------------------------------------------------
 
-PROJECT STRUCTURE
-
-openfaas-lab
-│
-├── hello-python
-│   ├── handler.py
-│   └── requirements.txt
-│
-├── stack.yaml
-└── README.md
-
---------------------------------------------------
-
 FUNCTION IMPLEMENTATION
 
 The function logic is implemented inside the file:
@@ -83,10 +70,6 @@ ACCESS VIA BROWSER
 Once deployed, the function can be accessed through the OpenFaaS gateway using the browser.
 
 http://<VM_PUBLIC_IP>:8080/function/hello-python
-
-Example:
-
-http://51.11.243.147:8080/function/hello-python
 
 --------------------------------------------------
 
